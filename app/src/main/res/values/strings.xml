@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyProject</string>
+    <string name="str_db">数据库操作</string>
+    <string name="str_bitmap">图片加载</string>
+    <string name="str_html">获取html文本</string>
+    <string name="str_download">下载到本地</string>
+    <string name="str_upload">上传服务器</string>
+    <string name="str_add_db">添加数据</string>
+    <string name="str_del_db">删除数据</string>
+    <string name="str_update_db">修改数据</string>
+    <string name="str_query_db">查询数据</string>
+</resources>

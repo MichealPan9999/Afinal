@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FinalDBActivity">
+
+    <Button
+        android:id="@+id/btn_add_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_add_db"/>
+
+    <Button
+        android:id="@+id/btn_del_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_del_db"/>
+
+    <Button
+        android:id="@+id/btn_update_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_update_db"/>
+
+    <Button
+        android:id="@+id/btn_query_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_query_db"/>
+
+    <TextView
+        android:id="@+id/tv_result_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
